@@ -20,6 +20,7 @@ namespace CRMManager.Domain.Aggregates.CustomerAggregate
             Street = street;
 
         }
+        //factory
         public static Customer Create(string name, string taxNumber, string street)
         {
             return new Customer(name, taxNumber, street);
