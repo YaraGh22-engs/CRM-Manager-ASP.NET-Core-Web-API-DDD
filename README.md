@@ -5,3 +5,9 @@ Manage customer information
 Track interactions and communications
 Create and manage sales leads
 Generate reports and analytics
+
+# Technologies Used
+ ## .NET Core
+## Angular
+## ReactJS
+
