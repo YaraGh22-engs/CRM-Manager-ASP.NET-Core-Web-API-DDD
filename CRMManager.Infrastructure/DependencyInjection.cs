@@ -16,7 +16,7 @@ namespace CRMManager.Infrastructure
         public static IServiceCollection AddInfrastructure(this IServiceCollection services)
         {
 
-            services.AddDbContext<CRMManagerContext>(options => options.UseSqlServer("Server=localhost;Initial Catalog=CustomerManager;Persist Security Info=False;User ID=joel;Password=joel12345;MultipleActiveResultSets=False;Encrypt=false;TrustServerCertificate=False;"));
+            services.AddDbContext<CRMManagerContext>(options => options.UseSqlServer("Server=DESKTOP-407GCNR\\SQL2022;User Id=sa;Password=Ghadeer22@@;DataBase=CRM;TrustServerCertificate=True;"));
             services.AddScoped<ICustomerRepository, CustomerRepository>();
             return services;
         }
